@@ -84,7 +84,7 @@ public class CrimeFragment extends Fragment {
     private void setDefaultProperties(){
         Log.d(TAG, "setDefaultProperties() called");
 
-        mDateButton.setText(mCrime.getDate().toString());
+        mDateButton.setText(mCrime.dateString());
         mDateButton.setEnabled(false);
     }
 }
